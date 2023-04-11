@@ -42,7 +42,7 @@ async function getUserDataFromRequest(req) {
 }
 
 app.get('/test', (req,res) => {
-  res.json('test ok');
+  res.json('test ok ok');
 });
 
 app.get('/messages/:userId', async (req,res) => {
